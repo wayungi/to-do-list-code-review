@@ -1,0 +1,37 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "A to-do list app with webpack & es6",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayungi/To-do-list.git"
+  },
+  "keywords": [
+    "to-do-list",
+    "webpack"
+  ],
+  "author": "Francis Wayungi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wayungi/To-do-list/issues"
+  },
+  "homepage": "https://github.com/wayungi/To-do-list#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
